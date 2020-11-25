@@ -6,36 +6,34 @@ My personal configuration file for Surge v4
 
 | Name           |   Proxy  |                        URL                                 |
 | -------------- | :------: | ---------------------------------------------------------- |
-| direct_fix     |   off    | `https://user:token@conf.20170116.xyz/ruleset/direct_fix.list` |
-| adblock        |   reject | `https://user:token@conf.20170116.xyz/ruleset/adblock.list` |
-| apple_api      |   on     | `https://user:token@conf.20170116.xyz/ruleset/apple_api.list` |
-| apple_cdn      |   on     | `https://user:token@conf.20170116.xyz/ruleset/apple_cdn.list` |
-| apple_direct   |   off    | `https://user:token@conf.20170116.xyz/ruleset/apple_direct.list` |
-| docker         |   on     | `https://user:token@conf.20170116.xyz/ruleset/docker.list` |
-| drive          |   on     | `https://user:token@conf.20170116.xyz/ruleset/drive.list` |
-| google         |   on     | `https://user:token@conf.20170116.xyz/ruleset/google.list` |
-| iptest         |   off    | `https://user:token@conf.20170116.xyz/ruleset/iptest.list` |
-| netflix        |   on     | `https://user:token@conf.20170116.xyz/ruleset/netflix.list` |
-| outlook        |   off    | `https://user:token@conf.20170116.xyz/ruleset/outlook.list` |
-| paypal         |   on     | `https://user:token@conf.20170116.xyz/ruleset/paypal.list` |
-| plex           |   off    | `https://user:token@conf.20170116.xyz/ruleset/plex.list` |
-| pluto          |   off    | `https://user:token@conf.20170116.xyz/ruleset/pluto.list` |
-| pornhub        |   on     | `https://user:token@conf.20170116.xyz/ruleset/pornhub.list` |
-| proxy          |   on     | `https://user:token@conf.20170116.xyz/ruleset/proxy.list` |
-| reject         |   reject | `https://user:token@conf.20170116.xyz/ruleset/reject.list` |
-| spotify        |   on     | `https://user:token@conf.20170116.xyz/ruleset/spotify.list` |
-| telegram       |   on     | `https://user:token@conf.20170116.xyz/ruleset/telegram.list` |
-| youtube        |   on     | `https://user:token@conf.20170116.xyz/ruleset/youtube.list` |
+| direct_fix     |   off    | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/direct_fix.list` |
+| adblock        |   reject | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/adblock.list` |
+| apple_api      |   on     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/apple_api.list` |
+| apple_cdn      |   on     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/apple_cdn.list` |
+| apple_direct   |   off    | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/apple_direct.list` |
+| docker         |   on     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/docker.list` |
+| drive          |   on     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/drive.list` |
+| google         |   on     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/google.list` |
+| iptest         |   off    | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/iptest.list` |
+| netflix        |   on     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/netflix.list` |
+| outlook        |   off    | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/outlook.list` |
+| paypal         |   on     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/paypal.list` |
+| googleapi      |   on     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/googleapi.list` |
+| pornhub        |   on     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/pornhub.list` |
+| proxy          |   on     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/proxy.list` |
+| reject         |   reject | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/reject.list` |
+| spotify        |   on     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/spotify.list` |
+| telegram       |   on     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/telegram.list` |
+| youtube        |   on     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/ruleset/youtube.list` |
 
 # Module
 
 | Name           | Platform  |                        URL                                       |
 | -------------- | :------:  | ---------------------------------------------------------------- |
-| analytics      |   Mac     | `https://user:token@conf.20170116.xyz/module/analytics.sgmodule` |
-| station        |   Mac     | `https://user:token@conf.20170116.xyz/module/station.sgmodule` |
-| wifi_access    |   Mac     | `https://user:token@conf.20170116.xyz/module/wifi_access.sgmodule` |
-| checkin_cookie |   iOS     | `https://user:token@conf.20170116.xyz/module/checkin_cookie.sgmodule` |
-| checkin_tasks  |   iOS     | `https://user:token@conf.20170116.xyz/module/checkin_tasks.sgmodule` |
-| jd_price       |   iOS     | `https://user:token@conf.20170116.xyz/module/jd_price.sgmodule` |
+| analytics      |   Mac     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/module/analytics.sgmodule` |
+| wifi_access    |   Mac     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/module/wifi_access.sgmodule` |
+| checkin_cookie |   iOS     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/module/checkin_cookie.sgmodule` |
+| checkin_tasks  |   iOS     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/module/checkin_tasks.sgmodule` |
+| jd_price       |   iOS     | `https://raw.githubusercontent.com/jiegto/Surge_config/main/module/jd_price.sgmodule` |
 
 
