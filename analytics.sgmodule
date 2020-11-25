@@ -1,0 +1,9 @@
+#!name=Analytics for Work
+#!desc=工作中需要用到的第三方分析服务
+
+[Rule]
+DOMAIN-SUFFIX,bugly.qq.com,DIRECT
+DOMAIN-SUFFIX,cnzz.com,DIRECT
+DOMAIN-SUFFIX,getui.com,DIRECT
+DOMAIN-SUFFIX,umeng.com,DIRECT
+DOMAIN-SUFFIX,aliyuncs.com,DIRECT
