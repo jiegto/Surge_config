@@ -1,0 +1,10 @@
+#!name= JD_Price
+#!desc= 京东比价助手
+#!system= ios
+
+[MITM]
+hostname = %APPEND% api.m.jd.com
+
+[Script]
+# 京东比价
+jd_price.js = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.20170116.xyz/yichahucha/surge/master/jd_price.js

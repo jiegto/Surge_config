@@ -1,0 +1,9 @@
+#!name= Checkin_Tasks
+#!desc= 自动签到助手：京东、机场、嘀嘀、网易
+#!system= ios
+
+[Script]
+# Tasks: 机场 = type=cron,cronexp=2 0 * * *,script-path=https://scripts.20170116.xyz/raw/wallcloud_checkin.js
+Tasks: 京东 = type=cron,cronexp=3 0 * * *,script-path=https://raw.20170116.xyz/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true,timeout=30,
+Tasks: 嘀嘀 = type=cron,timeout=120,cronexp=5 0 * * *,script-path=https://raw.20170116.xyz/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
+Tasks: 网易 = type=cron,cronexp=56 9 * * *,script-path=https://raw.20170116.xyz/chavyleung/scripts/master/neteasenews/neteasenews.js
