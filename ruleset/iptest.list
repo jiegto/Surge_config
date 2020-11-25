@@ -1,0 +1,11 @@
+# iStat Menus
+DOMAIN,ip.istatmenus.app
+
+# JumpDesk
+PROCESS-NAME,JumpConnect
+
+# Plex
+AND,((PROCESS-NAME,Plex Media Server), (DOMAIN-SUFFIX,plex.tv))
+
+# Other
+DOMAIN-SUFFIX,whatismyipaddress.com

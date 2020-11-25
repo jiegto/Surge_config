@@ -1,0 +1,76 @@
+# China Apps
+USER-AGENT,MApi*
+USER-AGENT,MicroMessenger*
+USER-AGENT,WeChat*
+
+# Ali
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,taobao
+DOMAIN-KEYWORD,alicdn
+DOMAIN-KEYWORD,aliyun
+
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,alibaba.com
+
+# Media
+DOMAIN-SUFFIX,acfun.tv
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,le.com
+DOMAIN-SUFFIX,miaopai.com
+DOMAIN-SUFFIX,tudou.com
+DOMAIN-SUFFIX,ximalaya.com
+DOMAIN-SUFFIX,xmcdn.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,zimuzu.tv
+
+# Life
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,smzdm.com
+DOMAIN-SUFFIX,suning.com
+DOMAIN-SUFFIX,xiami.com
+DOMAIN-SUFFIX,xiami.net
+
+# Misc
+DOMAIN-KEYWORD,baidu
+
+DOMAIN-SUFFIX,126.com
+DOMAIN-SUFFIX,126.net
+DOMAIN-SUFFIX,127.net
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,36kr.com
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,cnbeta.com
+DOMAIN-SUFFIX,cnbetacdn.com
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,ip.bjango.com
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,moke.com
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,sogou.com
+DOMAIN-SUFFIX,sogoucdn.com
+DOMAIN-SUFFIX,sohu.com
+DOMAIN-SUFFIX,soku.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,tianyancha.com
+DOMAIN-SUFFIX,weibo.com
+
+IP-CIDR,198.11.188.0/25
+IP-CIDR,198.11.136.0/24
+
+# Other
+DOMAIN-SUFFIX,cowtransfer.com
+DOMAIN-SUFFIX,sharedrop.io
+
+# > CN
+DOMAIN-SUFFIX,cn

@@ -1,0 +1,8 @@
+# > PayPal
+USER-AGENT,PayPal*
+
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
+
+# > eBay
+DOMAIN-SUFFIX,ebay.com

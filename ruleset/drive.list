@@ -1,0 +1,7 @@
+# Google Drive File Stream
+PROCESS-NAME,Google Drive File Stream
+PROCESS-NAME,Google Drive File Stream Helper
+
+# rclone & plexdrive
+PROCESS-NAME,plexdrive
+PROCESS-NAME,rclone

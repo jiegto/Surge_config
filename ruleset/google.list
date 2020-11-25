@@ -1,0 +1,23 @@
+# > Gmail
+DOMAIN-SUFFIX,gmail.com
+
+# > Google Blogger
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,blogblog.com
+DOMAIN-SUFFIX,blogspot.com
+
+# > Google 
+DOMAIN-KEYWORD,google
+
+DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,g.co
+DOMAIN-SUFFIX,gcr.io
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gmodules.com
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gvt1.com
+
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve

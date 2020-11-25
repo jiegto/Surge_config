@@ -1,0 +1,9 @@
+# Docker
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+
+# cloudfront
+DOMAIN-SUFFIX,cloudfront.net
+
+# freenom
+DOMAIN-SUFFIX,freenom.com

@@ -1,0 +1,31 @@
+# > Top Blocked
+DOMAIN-KEYWORD,dropbox
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,oculus
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,whatsapp
+DOMAIN-KEYWORD,github
+
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,hockeyapp.net
+DOMAIN-SUFFIX,bit.ly
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,awsstatic.com
+DOMAIN-SUFFIX,ampproject.org
+
+# > Spark
+DOMAIN-SUFFIX,api.amplitude.com
+DOMAIN-SUFFIX,app.smartmailcloud.com
+DOMAIN-SUFFIX,gate.hockeyapp.net
+DOMAIN-SUFFIX,smartmailcloud.com
+
+# > ifixit
+DOMAIN-SUFFIX,ifixit.com
