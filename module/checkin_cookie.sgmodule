@@ -1,9 +1,9 @@
 #!name= Checkin_Cookie
-#!desc= 获取自动签到助手 Cookie：京东、嘀嘀、网易
+#!desc= 获取自动签到助手 Cookie：京东、嘀嘀、网易、QQ阅读
 #!system= ios
 
 [MITM]
-hostname = %APPEND% api.m.jd.com, api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com, *.m.163.com
+hostname = %APPEND% api.m.jd.com, api.didialift.com,bosp-api.xiaojukeji.com,as.xiaojukeji.com, *.m.163.com, mqqapi.reader.qq.com
 
 [Script]
 Cookie: 京东 = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.20170116.xyz/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
@@ -11,3 +11,5 @@ Cookie: 嘀嘀_lid = type=http-request,pattern=^https?:\/\/bosp-api\.xiaojukeji\
 Cookie: 嘀嘀_token = type=http-request,pattern=^https?:\/\/api\.didialift\.com\/beatles\/userapi\/user\/user\/getuserinfo?.*city_id=(\d+).*token=([^&]*),script-path=https://raw.20170116.xyz/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
 Cookie: 嘀嘀_ticket = type=http-request,pattern=^https?:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?.*location_cityid=(\d+).*&ticket=([^&]*),script-path=https://raw.20170116.xyz/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
 Cookie: 网易 = type=http-request,pattern=^https:\/\/(.*?)c\.m\.163\.com\/uc\/api\/sign\/v3\/commit,script-path=https://raw.20170116.xyz/chavyleung/scripts/master/neteasenews/neteasenews.cookie.js,requires-body=true
+Cookie: QQ阅读 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/mqq\/user\/init,script-path=https://raw.20170116.xyz/ziye12/JavaScript/master/qqread.js, requires-header=true
+Cookie: QQ阅读时长 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/mqq\/addReadTimeWithBid? script-path=https://raw.20170116.xyz/ziye12/JavaScript/master/qqread.js, requires-header=true
