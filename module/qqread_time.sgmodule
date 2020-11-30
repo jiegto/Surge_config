@@ -1,0 +1,9 @@
+#!name= QQRead_Time_Cookie
+#!desc= 获取 QQ阅读时长 Cookie
+#!system= ios
+
+[MITM]
+hostname = %APPEND% mqqapi.reader.qq.com
+
+[Script]
+Cookie: QQ阅读时长 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/mqq\/addReadTimeWithBid?,script-path=https://raw.20170116.xyz/ziye12/JavaScript/master/Task/qqreads.js, requires-header=true
