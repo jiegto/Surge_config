@@ -1,0 +1,6 @@
+#!name= Checkin_Tasks
+#!desc= 自动签到助手：QQ阅读
+#!system= ios
+
+[Script]
+Tasks: QQ阅读 = type=cron,cronexp="*/21 * * * *",script-path=https://raw.20170116.xyz/ziye12/JavaScript/master/qqread.js
