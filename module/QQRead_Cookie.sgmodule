@@ -1,0 +1,9 @@
+#!name= QQRead_Cookie
+#!desc= 获取 QQ阅读 Cookie
+#!system= ios
+
+[MITM]
+hostname = %APPEND% mqqapi.reader.qq.com
+
+[Script]
+Cookie: QQ阅读 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/mqq\/user\/init,script-path=https://raw.20170116.xyz/ziye12/JavaScript/master/Task/qqreads.js, requires-header=true
