@@ -6,4 +6,4 @@
 hostname = %APPEND% mqqapi.reader.qq.com
 
 [Script]
-Cookie: QQ阅读 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/log\/v4\/mqq\/track,script-path=https://raw.20170116.xyz/ziye12/JavaScript/master/Task/qqreads.js
+Cookie: QQ阅读 = type=http-request,pattern=https:\/\/mqqapi\.reader\.qq\.com\/log\/v4\/mqq\/track,script-path=https://raw.20170116.xyz/ziye12/JavaScript/master/Task/qqreads.js, requires-header=true
