@@ -10,8 +10,8 @@ DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,vd.l.qq.com
 DOMAIN-SUFFIX,bce.baidu.com
 # emby
-DOMAIN-SUFFIX,emby.wtf
-DOMAIN-SUFFIX,plusmedia.site
-DOMAIN,emby-best.xeton.dev
-DOMAIN,bgp.emby.mickeycloud.com
+# DOMAIN-SUFFIX,emby.wtf
+# DOMAIN-SUFFIX,plusmedia.site
+# DOMAIN,emby-best.xeton.dev
+# DOMAIN,bgp.emby.mickeycloud.com
 
