@@ -1,0 +1,9 @@
+#!name= Apple_Weather
+#!desc= 获取 QQ阅读 Cookie
+#!system= ios
+
+[MITM]
+hostname = %APPEND% weather-data.apple.com
+
+[Script]
+AQI-US = type=http-response, pattern=https://weather-data.apple.com/v1/weather/[\w-]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?, requires-body=true, script-path=https://surge.20170116.xyz/script/weather.js
