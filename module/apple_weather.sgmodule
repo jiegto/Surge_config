@@ -1,5 +1,5 @@
 #!name= Apple_Weather
-#!desc= 获取 QQ阅读 Cookie
+#!desc= 使用美区 AQI 信息
 #!system= ios
 
 [MITM]
