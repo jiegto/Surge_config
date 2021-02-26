@@ -3,8 +3,8 @@
 #!system= ios
 
 [Script]
-Tasks: 京东 = type=cron,cronexp=3 0 * * *,script-path=https://raw.20170116.xyz/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true,timeout=30,
-Tasks: 嘀嘀 = type=cron,timeout=120,cronexp=5 0 * * *,script-path=https://raw.20170116.xyz/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js
+Tasks: 京东 = type=cron,cronexp=3 0 * * *,script-path=https://raw.20170116.xyz/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,wake-system=true,timeout=30
+Tasks: 嘀嘀 = type=cron,cronexp=5 0 * * *,script-path=https://raw.20170116.xyz/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,timeout=120
 Tasks: 网易 = type=cron,cronexp=56 9 * * *,script-path=https://raw.20170116.xyz/chavyleung/scripts/master/neteasenews/neteasenews.js
-Tasks: 什么值得买签到 = type=cron,cronexp=4 0 * * *,script-path=https://raw.20170116.xyz/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js
-Tasks: 什么值得买任务 = type=cron,cronexp=7 0 * * *,script-path=https://raw.20170116.xyz/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_mission.js,timeout=120
+Tasks: 什么值得买签到 = type=cron,cronexp=7 0 * * *,script-path=https://raw.20170116.xyz/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_signin.js,timeout=120
+Tasks: 什么值得买任务 = type=cron,cronexp=10 0 * * *,script-path=https://raw.20170116.xyz/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_mission.js,timeout=120
