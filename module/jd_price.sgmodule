@@ -7,4 +7,4 @@ hostname = %APPEND% api.m.jd.com
 
 [Script]
 # 京东比价
-jd_price.js = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.20170116.xyz/JDHelloWorld/jd_price/main/jd_price.js
+jd_price.js = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.20170116.xyz/yichahucha/surge/master/jd_price.js
