@@ -1,0 +1,12 @@
+#!name= Price_comparison
+#!desc= 京东、淘宝比价助手
+#!system= ios
+
+[MITM]
+hostname = %APPEND% api.m.jd.com, trade-acs.m.taobao.com
+
+[Script]
+# 京东比价
+price.js = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+price.js = type=http-request,requires-body=1,pattern=^http://.+/amdc/mobileDispatch,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+price.js = type=http-response,requires-body=1,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
